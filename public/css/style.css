@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=STIX+Two+Math&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+
+a, button{
+    font-family: Inter;
+    font-weight: 300;
+    font-size: 1em;
+}
+
+h2{
+    font-size: 1.1em;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 86px;
+    font-family: 'STIX Two Math';
+    }
+
+header h1{
+    font-size: 1.5em;
+    width: max-content;
+    padding: 0 16px;
+}
+
+
+nav{
+    width: max-content;
+    padding-left: 10px;
+    font-family: inter;
+    height: 100%;
+    border-left: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+ul{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    list-style: none;
+}
+
+nav button{
+    border: none;
+    height: 100%;
+    width: max-content;
+    background: none;
+}
+
+
+nav button:hover{
+    cursor: pointer;
+    background-color: cadetblue;
+}
+
+header i{
+    width: 33%;
+    padding-left: 30px;
+}
+
+.navbar_links{
+    display: flex;
+    justify-content: space-evenly;
+    margin-right: 20px;
+}
+
+
+a{
+    color: black;
+    text-decoration: none;
+}
+
+.item{
+    padding: 1px;
+    border-radius: 4px;
+    text-align: center;
+    margin: 3px 0 3px 0;
+}
+
+.item:hover{
+    cursor: pointer;
+    background-color: cadetblue;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* background-image: url(/img/fullbck.jpg); */
+    height: 75vh;
+    padding: 30px 30px;
+    font-family: 'Open Sans';
+    background: #D3CCE3;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #E9E4F0, #D3CCE3);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #E9E4F0, #D3CCE3); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */;
+
+}
+
+.placa{
+    margin: 20px 0;
+    padding: 10px 10px 10px 10px;
+    width: max-content;
+    background-color: #FFE8D6;
+    border-radius: 10px;
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+    margin: 5px 0;
+    align-items: flex-start;  
+}
+
+
+.input{
+    display: flex;
+    flex-direction: column;
+    width: max-content;
+    padding: 5px 10px;
+    align-items: flex-start;
+}
+
+.input button{
+    margin-top: 5px;
+}
+
+#user_input{
+    width: 80px;
+}
+
+.result{
+    margin-top:  30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.show_result{
+    text-align: center;
+    height: 2em;
+    width: 50px;
+}

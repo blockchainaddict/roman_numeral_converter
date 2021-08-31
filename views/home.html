@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Roman Numeral Converter</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <header>
+        <h1>Roman Numeral Converter</h1>
+        <nav class="navbar">
+            <ul class="navbar_links">
+                <li class="item"><button class="congrats" onclick="alerty()">Congratulate the developer</button></li>
+                <li class="item"><a href="./convert_functions.js">See Raw Code</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <div class="placa">
+            <div class="form">
+                
+
+                <div class="input">
+                    <label for="number_in">Enter a number between 0 and 9999</label>
+                    <input type="number" name="number_in" id="user_input" min="0" max="9999">
+                    <button id="submit_button" onclick="showResult()">Process</button>
+                </div>
+                
+
+                
+            </div>
+            <div class="result">
+                <h2>Converted to Roman Numerals: </h2>
+                <div class="show_result" id="show_result">
+
+                    <!-- insertar aca -->
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        
+    </footer>
+
+    <script src="convert_functions.js"></script>
+    <script src="simple_func.js"></script>
+    
+</body>
+</html>
