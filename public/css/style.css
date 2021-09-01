@@ -161,3 +161,18 @@ main{
     height: 2em;
     width: 50px;
 }
+
+@media (max-width:460px){
+    header h1{
+        font-size: 1em;    
+    }
+
+    .navbar_links{
+        font-size: 0.8em;
+    }
+
+    #user_input{
+        width: 100px;
+        height: 30px;
+    }
+}
